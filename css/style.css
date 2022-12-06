@@ -4,8 +4,15 @@
     box-sizing: border-box;
 } */
 
-.box {
+header .box {
     background-color: magenta;
     font-weight: bold;
     padding: 20px;
+}
+
+#jumbo .box{
+    background-color: magenta;
+    font-weight: bold;
+    padding: 20px;
+    min-height: 300px;
 }
