@@ -16,3 +16,7 @@ header .box {
     padding: 20px;
     min-height: 300px;
 }
+
+#info .box{
+    background-color: magenta;
+}
