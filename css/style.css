@@ -4,17 +4,33 @@
     box-sizing: border-box;
 } */
 
+/* GENERALI */
+
+:root {
+    --my-dark-color:#2c3e50;
+    --my-light-color:#1ABC9C;
+}
+
+.bg-my-dark{
+    background-color: var(--my-dark-color);
+}
+
+.bg-my-light{
+    background-color: var(--my-light-color);
+}
+
+.text-my-light{
+    color: var(--my-light-color);
+}
+
 header .box {
     background-color: magenta;
     font-weight: bold;
     padding: 20px;
 }
 
-#jumbo .box{
-    background-color: magenta;
-    font-weight: bold;
-    padding: 20px;
-    min-height: 300px;
+#jumbo img{
+    width:  250px;
 }
 
 #info .box{
