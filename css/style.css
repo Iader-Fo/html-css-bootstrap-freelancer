@@ -29,10 +29,24 @@ header .box {
     padding: 20px;
 }
 
+header .input_right{
+    margin-left: auto;
+    text-align: right;
+    padding-right: 10px;
+}
+
 #jumbo img{
     width:  250px;
 }
 
 #info .box{
     background-color: magenta;
+}
+
+#contact .custom_imput{
+    border-bottom:1px solid gray !important;
+
+}
+#contact .custom_imput::placeholder {
+    color: black;
 }

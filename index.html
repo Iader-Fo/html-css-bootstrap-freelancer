@@ -20,36 +20,37 @@
 
         <section class="bg-my-dark py-3">
 
-            <nav class="container navbar navbar-expand-lg">
+            <nav class="container navbar navbar-dark navbar-expand-lg">
                 <div class="container-fluid">
                     <div class="col-3">
                         <a class="navbar-brand text-light" href="#">START BOOTSTRAP</a>
                     </div>
                     <div class="col-3 d-flex justify-content-end">
                         <div>
-                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            <button class="border navbar-toggler" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                                 aria-expanded="false" aria-label="Toggle navigation">
                                 <span class="navbar-toggler-icon"></span>
                             </button>
                         </div>
-                        <div>
-                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                                <form class="d-flex" role="search">
-                                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                                        <li class="nav-item">
-                                            <a class="nav-link text-light" href="#">PORTFOLIO</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link text-light" href="#">ABOUT</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link text-light" href="#">CONTACT</a>
-                                        </li>
-                                    </ul>
-                                </form>
-                            </div>
-                        </div>
+                        
+                    </div>
+                </div>
+                <div class="w-100 d-flex flex-row-reverse pt-2">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <form class="d-flex" role="search">
+                            <ul class="input_right navbar-nav mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" href="#">PORTFOLIO</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" href="#">ABOUT</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" href="#">CONTACT</a>
+                                </li>
+                            </ul>
+                        </form>
                     </div>
                 </div>
             </nav>
@@ -193,11 +194,11 @@
 
             <div class="container-lg ">
                 <div class="row row-cols-1 px-5">
-                    <div class="col py-2 border-bottom border-secondary">name</div>
-                    <div class="col py-2 border-bottom border-secondary">Email adress</div>
-                    <div class="col py-2 border-bottom border-secondary">Phone Number</div>
-                    <div class="col py-2 border-bottom border-secondary message">Message</div>
-                    <div class="col py-2 mt-2">
+                    <input class="custom_imput py-2 px-0 border-0 w-100" placeholder="Name"/>
+                    <input class="custom_imput py-2 px-0 border-0 w-100" placeholder="Email Address"/>
+                    <input class="custom_imput py-2 px-0 border-0 w-100" placeholder="Phone Number"/>
+                    <textarea  class="custom_imput pt-3 px-0 border-0 w-100" placeholder="Message" name="message" id="message" cols="30" rows="10"></textarea>
+                    <div class="col py-2 px-0 mt-2">
                         <a class="btn btn-primary" href="#" role="button">Send</a>
                     </div>
                 </div>
@@ -232,8 +233,8 @@
                             <div class="card-body">
                                 <div class="box">
                                     <h5 class="card-title">ABOUT FREELANCER</h5>
-                                    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, velit. <a
-                                            href="#">Start Bootstrap</a>.</P>
+                                    <p class="m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, velit. <a
+                                            href="#">Start Bootstrap</a>.</p>
                                 </div>
                             </div>
                         </div>
