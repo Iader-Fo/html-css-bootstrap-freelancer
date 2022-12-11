@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
@@ -36,7 +38,7 @@
                         
                     </div>
                 </div>
-                <div class="w-100 d-flex flex-row-reverse pt-2">
+                <div class="w-100  pt-2">
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <form class="d-flex" role="search">
                             <ul class="input_right navbar-nav mb-2 mb-lg-0">
@@ -105,7 +107,11 @@
                         <div class="pt-3">
                             <h1>START BOOTSTRAP</h1>
                         </div>
-                        <div>STELLA</div>
+                        <div class="star">
+                            <i class="bi bi-dash-lg"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-dash-lg"></i>
+                        </div>
                         <div class="pt-2">GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</div>
                     </div>
                 </div>
@@ -116,7 +122,11 @@
 
             <div class="container text-center">
                 <H2>PORTFOLIO</H2>
-                <p>stella</p>
+                <div class="star">
+                    <i class="bi bi-dash-lg"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-dash-lg"></i>
+                </div>
             </div>
 
             <div class="container text-center">
@@ -155,16 +165,20 @@
             </div>
         </section>
 
-        <section id="about" class=" bg-success py-5">
+        <section id="about" class="bg-my-light py-5 text-light">
             <div class="container text-center">
                 <H2>ABOUT</H2>
-                <p>stella</p>
+                <div class="star">
+                    <i class="bi bi-dash-lg"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-dash-lg"></i>
+                </div>
             </div>
 
             <div class="container text-center">
                 <div class="row row-cols-1 row-cols-md-2 mb-3 px-5">
                     <div class="col px-5">
-                        <div class="card">
+                        <div class="card bg-my-light border border-0">
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto soluta corporis sit
                                 ipsum sed rerum perspiciatis, magnam minus voluptas cum cumque molestiae, deleniti harum
                                 blanditiis itaque maxime incidunt quos. Perspiciatis odit necessitatibus, dolorem quis
@@ -173,7 +187,7 @@
                         </div>
                     </div>
                     <div class="col px-5">
-                        <div class="card">
+                        <div class="card bg-my-light border border-0">
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto soluta corporis sit
                                 ipsum sed rerum perspiciatis, magnam minus voluptas cum cumque molestiae, deleniti harum
                                 blanditiis itaque maxime incidunt quos. Perspiciatis odit necessitatibus, dolorem quis
@@ -182,24 +196,28 @@
                         </div>
                     </div>
                 </div>
-                <a class="btn btn-outline-light" href="#" role="button">icona Download</a>
+                <a class="btn btn-outline-light" href="#" role="button"><i class="bi bi-download"></i> Download</a>
             </div>
         </section>
 
         <section id="contact" class="py-5">
             <div class="container text-center">
                 <H2>CONTACT ME</H2>
-                <p>stella</p>
+                <div class="star">
+                    <i class="bi bi-dash-lg"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-dash-lg"></i>
+                </div>
             </div>
 
-            <div class="container-lg ">
+            <div class="container-lg px-5">
                 <div class="row row-cols-1 px-5">
                     <input class="custom_imput py-2 px-0 border-0 w-100" placeholder="Name"/>
                     <input class="custom_imput py-2 px-0 border-0 w-100" placeholder="Email Address"/>
                     <input class="custom_imput py-2 px-0 border-0 w-100" placeholder="Phone Number"/>
                     <textarea  class="custom_imput pt-3 px-0 border-0 w-100" placeholder="Message" name="message" id="message" cols="30" rows="10"></textarea>
                     <div class="col py-2 px-0 mt-2">
-                        <a class="btn btn-primary" href="#" role="button">Send</a>
+                        <a class=" bg-my-light border border-0 btn btn-primary" href="#" role="button">Send</a>
                     </div>
                 </div>
             </div>
@@ -210,10 +228,10 @@
 
         <footer>
 
-            <section id="info" class=" bg-success py-5">
+            <section id="info" class=" bg-my-dark-secondary py-5 text-light">
                 <div class="container text-center">
                     <div class="row row-cols-1 row-cols-md-3">
-                        <div class="col">
+                        <div class="col py-3 py-md-0">
                             <div class="card-body">
                                 <div class="box">
                                     <h5 class="card-title">LOCATION</h5>
@@ -221,15 +239,22 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col">
+                        <div class="col py-3 py-md-0">
                             <div class="card-body">
                                 <div class="box">
                                     <h5 class="card-title">AROUND THE WEB</h5>
-                                    icona icona icona icona
+                                    <div class="d-flex justify-content-center">
+                                        <div class="icon_around">
+                                            <i class="fa fa-brands fa-facebook"></i>
+                                            <i class="fa fa-brands fa-google-plus-g"></i>
+                                            <i class="fa fa-brands fa-twitter"></i>
+                                            <i class="fa fa-brands fa-linkedin-in"></i>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col">
+                        <div class="col py-3 py-md-0">
                             <div class="card-body">
                                 <div class="box">
                                     <h5 class="card-title">ABOUT FREELANCER</h5>
@@ -245,7 +270,7 @@
 
             </section>
 
-            <section id="copyright" class=" bg-info py-4">
+            <section id="copyright" class="text-light bg-my-dark py-4">
                 <div class="container text-center">
                     Copyright your website 2019
                 </div>

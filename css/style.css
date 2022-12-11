@@ -9,6 +9,12 @@
 :root {
     --my-dark-color:#2c3e50;
     --my-light-color:#1ABC9C;
+    --my-dark-secondary-color:#3a546d;
+
+}
+
+.bg-my-dark-secondary{
+    background-color: var(--my-dark-secondary-color);
 }
 
 .bg-my-dark{
@@ -24,7 +30,7 @@
 }
 
 header .box {
-    background-color: magenta;
+    /* background-color: magenta; */
     font-weight: bold;
     padding: 20px;
 }
@@ -38,10 +44,10 @@ header .input_right{
 #jumbo img{
     width:  250px;
 }
-
+/* 
 #info .box{
     background-color: magenta;
-}
+} */
 
 #contact .custom_imput{
     border-bottom:1px solid gray !important;
@@ -49,4 +55,16 @@ header .input_right{
 }
 #contact .custom_imput::placeholder {
     color: black;
+}
+
+.star{
+    font-size: 2rem;
+}
+
+.icon_around .fa{
+    display: inline-block;
+    border-radius: 50%;
+    padding: 0.7em;
+    border: 1px solid white;
+    margin: 10px 5px;
 }
