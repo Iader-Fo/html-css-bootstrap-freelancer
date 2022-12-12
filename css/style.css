@@ -29,6 +29,10 @@
     color: var(--my-light-color);
 }
 
+header{
+    z-index: 10;
+}
+
 header .box {
     /* background-color: magenta; */
     font-weight: bold;
@@ -58,8 +62,21 @@ header .input_right {
     color: black;
 }
 
-.star {
-    font-size: 2rem;
+.star::before,
+.star::after {
+    content: "";
+    width: 15%;
+    height: 4px;
+    border-radius: 2px;
+    background-color: currentColor;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+.star>i {
+    vertical-align: middle;
+    margin: 0 15px;
 }
 
 .icon_around .fa {
