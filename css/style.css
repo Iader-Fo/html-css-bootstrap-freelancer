@@ -7,25 +7,25 @@
 /* GENERALI */
 
 :root {
-    --my-dark-color:#2c3e50;
-    --my-light-color:#1ABC9C;
-    --my-dark-secondary-color:#3a546d;
+    --my-dark-color: #2c3e50;
+    --my-light-color: #1ABC9C;
+    --my-dark-secondary-color: #3a546d;
 
 }
 
-.bg-my-dark-secondary{
+.bg-my-dark-secondary {
     background-color: var(--my-dark-secondary-color);
 }
 
-.bg-my-dark{
+.bg-my-dark {
     background-color: var(--my-dark-color);
 }
 
-.bg-my-light{
+.bg-my-light {
     background-color: var(--my-light-color);
 }
 
-.text-my-light{
+.text-my-light {
     color: var(--my-light-color);
 }
 
@@ -35,33 +35,34 @@ header .box {
     padding: 20px;
 }
 
-header .input_right{
+header .input_right {
     margin-left: auto;
     text-align: right;
-    padding-right: 10px;
 }
 
-#jumbo img{
-    width:  250px;
+#jumbo img {
+    width: 250px;
 }
+
 /* 
 #info .box{
     background-color: magenta;
 } */
 
-#contact .custom_imput{
-    border-bottom:1px solid gray !important;
+#contact .custom_imput {
+    border-bottom: 1px solid gray !important;
 
 }
+
 #contact .custom_imput::placeholder {
     color: black;
 }
 
-.star{
+.star {
     font-size: 2rem;
 }
 
-.icon_around .fa{
+.icon_around .fa {
     display: inline-block;
     border-radius: 50%;
     padding: 0.7em;
