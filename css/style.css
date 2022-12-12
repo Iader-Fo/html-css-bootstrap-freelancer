@@ -86,3 +86,14 @@ header .input_right {
     border: 1px solid white;
     margin: 10px 5px;
 }
+
+.btn-my-light{
+    background-color: var(--my-light-color);
+    color: white;
+}
+
+.btn-my-light:hover{
+    background-color: var(--my-light-color);
+    color: white;
+    opacity: 0.8;
+}
